@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>OIBSIP Calculator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main class="calculator">
+        <h1>Calculator</h1>
+
+        <!-- Display -->
+        <div class="display-container">
+            <div id="previous-display" class="previous-display"></div>
+            <div id="display" class="display">0</div>
+        </div>
+
+        <!-- Calculator Buttons -->
+        <div class="buttons">
+
+            <button type="button" class="function-btn" data-action="clear">
+                C
+            </button>
+
+            <button type="button" class="function-btn" data-action="backspace">
+                ⌫
+            </button>
+
+            <button type="button" class="operator-btn" data-operator="/">
+                ÷
+            </button>
+
+            <button type="button" class="operator-btn" data-operator="*">
+                ×
+            </button>
+
+            <button type="button" class="number-btn" data-number="7">
+                7
+            </button>
+
+            <button type="button" class="number-btn" data-number="8">
+                8
+            </button>
+
+            <button type="button" class="number-btn" data-number="9">
+                9
+            </button>
+
+            <button type="button" class="operator-btn" data-operator="-">
+                −
+            </button>
+
+            <button type="button" class="number-btn" data-number="4">
+                4
+            </button>
+
+            <button type="button" class="number-btn" data-number="5">
+                5
+            </button>
+
+            <button type="button" class="number-btn" data-number="6">
+                6
+            </button>
+
+            <button type="button" class="operator-btn" data-operator="+">
+                +
+            </button>
+
+            <button type="button" class="number-btn" data-number="1">
+                1
+            </button>
+
+            <button type="button" class="number-btn" data-number="2">
+                2
+            </button>
+
+            <button type="button" class="number-btn" data-number="3">
+                3
+            </button>
+
+            <button type="button" class="equals-btn" data-action="equals">
+                =
+            </button>
+
+            <button type="button" class="number-btn zero" data-number="0">
+                0
+            </button>
+
+            <button type="button" class="number-btn" data-action="decimal">
+                .
+            </button>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
